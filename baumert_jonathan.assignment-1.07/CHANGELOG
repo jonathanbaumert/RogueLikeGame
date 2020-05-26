@@ -1,0 +1,24 @@
+10/22/18 ran make clobber, then renamed all .c files to .cpp
+10/22/18 made first pass at converting structs character, npc, pc and dungeon to classes in their prospective .h files
+10/22/18 once they had been converted to classes, I ended up with my #include statements being incorrect and causing errors
+10/22/18 fixed #includes and then corrected errors that popped up throughout converted
+10/23/18 fixed comparison between signed and unsigned integer expressions
+10/23/18 began implementing fog of war. added two maps to dungeon, one tracking if a space is visible and the other tracking known terrain for the pc
+10/23/18 added function outline to dungeon.h including functions to initialize known pc terrain, observe surrounding terrain, check is a spot is visible,
+            reset visibility, add terrain to known terrain and get terrain from the known terrain map.
+10/23/18 added ter_cantsee to track unknown terrain
+10/23/18 added a version of can see that uses two pair_ts instead of character_ts
+10/23/18 changed io teleport function to allow for controlled teleport using non fogged map
+10/23/18 implemented start known terrain, observe terrain, is visible and learn terrain, pc known terrain at by updating and checking new maps appropriately as needed
+10/23/18 added function based off of io_display called io_display_fog that displays the map with fog of war on
+10/23/18 had to add the observe and reset terrain functions to appropriate places to ensure proper functionality, was getting a completely blank map.
+10/23/18 added the ability to teleport randomly
+10/30/18 started next assignment (1.07)
+10/30/18 created dice.cpp that includes a dice class and a function to roll the dice as described in the assignment document using a base, a number and the number of sides on the dice
+10/31/18 created a description.h and a description.cpp in the header, I created a npc_decription class
+10/31/18 added description, color, speed, abilities, hitpoints, attack damage, symbols and rarity fields to character class
+10/31/18 added functions to read different monster parameters
+10/31/18 added function to delete spaces
+10/31/18 update rlg327.cpp to only read the descriptions and print them
+10/31/18 ran into errors regarding reference to undefined reference to 'std::' then a bunch of stuff. code compiles but wont link
+10/31/18 changed makefile to try to fix errors but this did not solve the issue.

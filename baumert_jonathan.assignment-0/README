@@ -1,0 +1,11 @@
+Name: Jonathan Baumert
+Date: 8/29/18
+My program contains 4 functions: checkPath, explorePaths, getMove, and main. The main function generates a board and assigns all possible moves to each space on the board.A path is then initialized that is used to mark past positions.
+
+The function explorePaths is then called. Explore paths is a recursive function that loops through all possible moves that can be made by a knight at a current possition and adds to a counter when the end of a path is reached.
+
+The function checkPath recieves a path, a position and the step within that position and checks if a position is on the path before a given step.
+
+Finally, the function getMoves finds all possible moves for a knight at a current position on the board.
+
+This satisfies the criteria because it prints out all tours possible in the order that they are visited and confirms the correct number of tours at the end of the file. If the variable isCylinder is changed to 0 in the main function this program can also handle cylindrical boards. The code is also generalized to be able to handle boards of various sizes if the variables x and y(representing columns and rows) are changed at the beginning of the main file.

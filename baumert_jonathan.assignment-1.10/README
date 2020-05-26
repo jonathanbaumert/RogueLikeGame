@@ -1,0 +1,16 @@
+This assignment meets the specification because it implements ranged combat, the poison spell and a few other fun additions.
+
+The command 'a' was added to "aim" at a visible monster and target it.
+The 'r' command was added to perform ranged combat on a targeted monster that is visible and alive if the pc has equipped a ranged weapon.
+The 'p' command was added to poison the targeted monster and any monsters directly next to it.
+
+The pc has been given a belly, initially set to 100. If the belly reaches 0, the character starves and dies.
+The pc's belly can be refilled by eating food. The belly is increased by the weight of the food with a max of 100 and decreases by 1 every third turn.
+Food is eaten by expunging it from the game using the 'x' command.
+
+Food objects (apples and bannannas) and ranged objects (crossbow and longbow) have been added to the object_desc.txt file.
+Please test with this file.
+
+I also made equipped objects defense stat useful during combat.
+
+I gave the pc mana, which is initially set to 10. Mana increases every other turn by 1. The poison spell requires 5 mana.

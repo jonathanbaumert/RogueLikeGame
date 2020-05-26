@@ -1,0 +1,5 @@
+I cannot tell if this satisfies the assignment description
+because it will not recognize the cxx11 basic string type on my machine
+however, it should work logically because it will read in the monsters as specified
+and print them as specified. However, because I cannot test it, I do not know if it works properly.
+Dice functionality should be correct though.

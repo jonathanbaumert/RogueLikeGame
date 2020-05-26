@@ -1,0 +1,13 @@
+10/15/18 Began assignment 1.05 by changing the pc_next_pos to be able to recieve a character input
+10/16/18 Removed existing logic that moved the pc, and added the apropriate direction movement to the associated character inputs
+10/16/18 Changed the pc_next_pos to return a int associated with different move types i.e. stairs, change position, quite, get monster list
+10/16/18 Changed the Makefile to be more to my liking and more easily understandable by myself
+10/16/18 Began to update the do_moves to respond appropriately to pc_next_pos output
+10/16/18 Player moves but does not recognize stairs when standing over them even though they are there, changed max monsters to 1 for debugging sake.
+10/17/18 Changed render dungeon to use mvaddch instead of putch to better display dungeon on a window
+10/17/18 Changed rlg327.c file to initiate a window screen and end it when the game ends.
+10/17/18 Successfully got player to move and go up and down stairs.
+10/17/18 Began implementing the display monsters in scrolling form, created display_monsters function in dungeon.c file
+10/17/18 Successfully got the list to display but have not gotten scrolling to work yet
+
+

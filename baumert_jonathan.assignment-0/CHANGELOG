@@ -1,0 +1,7 @@
+	Name: Jonathan Baumert
+	8/25/18 Project started
+	8/25/18 KnightsTours.c created, general outline is coded, played around with how to generate the board, find possible moves and track prior moves.
+	8/26/18 Significant bugs discovered, primarily repeated encounters with segmentation faults, created getMove function to generate a move based on given info. Recursion was started to be played around with using 2 functions
+	8/27/18 Recursion was implemented. Successful out put was generated at the 1 board position, but could not be replicated for other positions. Bug found in get move function, moves were not all correct. Path method implemented
+	8/28/18 Code was rewritten to a KnightsPath2.c file. To declutter and attempt to write the code in a better format. SegmentFault errors initially occur.
+	8/29/18 Code works completely and README file created. Project is prepared for submission.

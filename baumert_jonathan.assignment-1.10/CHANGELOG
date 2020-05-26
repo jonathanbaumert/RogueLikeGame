@@ -1,0 +1,7 @@
+11/28/18 I have chosen to implement ranged combat and poison. Added function to target a visible monster.
+11/28/18 Added functions do_ranged_attack to move.h and move.cpp and io_ranged_attack to io.cpp. io_ranged_attack ensures the attack can be performed and do_ranged_attack performs the attack.
+11/28/18 Added functions do_poison_attack to move.h and move.cpp and io_poison_attack to io.cpp. io_poison_attack ensures the attack can be performed and do_poison_attack performs the attack.
+11/28/18 Added belly and turn_count to the pc. Edited do_moves to decrease belly every 3rd move, warnings when the belly is at 50% and 10%. PC now dies if belly reaches 0.
+11/28/18 Added apples and bannannas to the object_desc.txt file. Edited expunge and destroy_in functions to increase belly by a foods weight when it is expunged.
+11/28/18 Added mana to pc which increases every other turn, caps at 100 and starts at 10. Poison spell now requires 5 mana.
+11/28/18 Edited do_combat to account for the defense characteristics of carried objects when the pc is attacked.

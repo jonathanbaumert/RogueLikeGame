@@ -1,0 +1,9 @@
+	8/30/18 Project began, GenerateDungeon.c created
+	8/30/18 created loop to generate dungeon and a function to print the dungeon
+	9/1/18 created outline of using a struct for a dungeon and generating a dungeon with functions: generateDungeon, placeRoom, placeCooridors, placeRock
+	9/5/18 implemented ability to randomly place rooms correctly
+	9/5/18 implemented ability to place cooridors successfully
+	9/12/18 began 1.02, create LoadSave.c, updated makefile
+	9/12/18 implemented ability to load each part of an example file incrementally.
+	9/12/18 update my dungeon generator and struct to be more suitable for this project
+	9/12/18 implemented ability save a dungeon

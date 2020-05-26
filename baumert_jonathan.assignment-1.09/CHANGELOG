@@ -1,0 +1,14 @@
+11/10/18 Began assignment by updating move function to implement hp and damage. Character killed when hp <=0
+11/11/18 Created carry and equipment object arrays for the pc. Created functions to delete objects in them at end of run
+11/11/18 edited the move function to add objects to the carry array if the player steps on them and there is an open slot
+11/11/18 created function to clear screen and a function that takes the user inputted character and converts it to a int based on if they are selecting a equipment or carry object
+11/11/18 created function that returns an object from the carry/equipment array based on user input
+11/12/18 created functions to list carried and equiped items
+11/12/18 created functions to drop a selected carried item
+11/12/18 created function to delete a selected carried item
+11/12/18 created function to wear a selected carried item
+11/13/18 created function to inspect a carried item 
+11/13/18 created a function to take off a equiped item and move it to carried 
+11/13/18 created function to update pc speed when item is taken off or put on 
+11/14/18 created method to flag the rarest generated monster and flag it as a boss. Game ends if that monster is killed 
+11/14/18 created function to inspect a monster, by modifying the teleport function

@@ -1,0 +1,7 @@
+Jonathan Baumert
+To create use the make file enter make 'LoadSave' into the command terminal.
+Then running ./LoadSave will generate a new dungeon and desplay it.
+Running ./LoadSave --load will attempt to load a dungeon file in the .rlg327 folder
+running ./LoadSave --save will attempt to generate a new dungeon and save it to a dungeon file in the .rlg327 folder
+
+Using a combination of --load and --save will load, then display, then save a dungeon from and to the dungeon file.

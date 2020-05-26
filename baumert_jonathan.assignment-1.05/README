@@ -1,0 +1,6 @@
+This assignment meets all specifications except the menu scrolling requirement. 
+It builds off of the professors code to randomly add stairs and allows the players to use the stairs
+and move around the map.
+Modifications were made to the rlg327.c file, the render_dungeon function, do_moves function and the function display_monsters was added;
+The display monsters function is added to the dungeon.c file and creates a menu of monsters and their locations relative to the pc.
+I tryed to get scrolling to work, but am unsure why my code does not work for scrolling.

@@ -1,0 +1,8 @@
+Jonathan Baumert
+
+This assignment meets all specifications outlined by the assignment document.
+Items can be picked up, equipped, taken off, dropped, deleted, and inspected.
+Monsters can be inspected and one is specified as a boss. 
+Combat is done by subracting hp based off of rolled damage.
+Speed and damage are updated based off of carried items.
+Inventory and equipment can also be listed.
